@@ -3,6 +3,8 @@ registry:
   image: registry:2
   ports:
     - 5000:5000
+  environment:
+    REGISTRY_HTTP_SECRET: k,jer3245bg@#uybgyvfy23425
   volumes:
 #    - /var/registry/data:/var/lib/registry
     - certs:/certs
