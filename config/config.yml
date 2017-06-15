@@ -1,0 +1,9 @@
+version: 0.1
+auth:
+  htpasswd:
+    realm: basic-realm
+    path: /auth/htpasswd
+http:
+  tls:
+    certificate: /certs/domain.crt
+    key: /certs/domain.key
